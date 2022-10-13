@@ -1,0 +1,43 @@
+.alt-header {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  padding: 50px var(--horizontal-space) 20px;
+  margin-bottom: 15px;
+}
+
+.alt-header__column {
+  width: 34%;
+  text-align: center;
+}
+
+.alt-header__column:first-child {
+  text-align: start;
+  margin-right: auto;
+}
+
+.alt-header__column:last-child {
+  text-align: end;
+  margin-left: auto;
+}
+/* 강의랑 별도로 자의적 제작. 문제될 시 삭제
+원래 목적. chat.html 헤드 타이틀 내 이름의 중앙정렬 */
+
+/* .alt-header__column:first-child {
+  margin-right: auto;
+}
+
+.alt-header__column:last-child {
+  margin-left: auto;
+} */
+/* 기존 니코 강의 방식 */
+
+.alt-header__title {
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.alt-header__column span:last-child {
+  margin-left: 20px;
+}

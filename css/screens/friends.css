@@ -1,3 +1,7 @@
+#friend-body {
+  height: 100vh;
+}
+
 #friends-display-link {
   text-align: center;
   display: block;
@@ -26,6 +30,16 @@
   display: flex;
   justify-content: space-between;
   color: rgba(0, 0, 0, 0.5);
+}
+
+#friend-body
+  .user-component:first-child
+  .user-component__column:last-child
+  span {
+  color: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 8px;
+  border-radius: 40%;
 }
 
 @keyframes hidesplashscreen {

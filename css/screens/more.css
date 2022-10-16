@@ -1,3 +1,7 @@
+#more-body {
+  height: 150vh;
+}
+
 .more-screen .icon-row {
   flex-wrap: wrap;
 
